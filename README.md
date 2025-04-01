@@ -4,8 +4,8 @@
 
 ```bash
 # 소스 Download
-❯ git clone https://github.com/icebreaker70/kans-k3s-istio
-❯ cd kans-k3s-istio
+❯ git clone https://github.com/KimDoKy/k3s-istio.git
+❯ cd k3s-istio
 
 # VM 생성
 ❯ vagrant up --provision
@@ -38,5 +38,5 @@ $ kc get pods -A
 ❯ vagrant resume
 
 # VM 삭제
-❯ vagrant destory -f
+❯ vagrant destroy -f
 ```

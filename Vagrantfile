@@ -1,6 +1,8 @@
 # for MacBook Air - M1 with vmware-fusion
-BOX_IMAGE = "bento/ubuntu-22.04-arm64"
-BOX_VERSION = "202401.31.0"
+# BOX_IMAGE = "bento/ubuntu-22.04-arm64"
+# BOX_VERSION = "202401.31.0"
+BOX_IMAGE = "gyptazy/ubuntu22.04-arm64"
+BOX_VERSION = "1.0.1"
 
 # max number of worker nodes : Ex) N = 3
 N = 2
